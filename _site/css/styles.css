@@ -20,7 +20,10 @@ html {
 
 .nav {
   margin: 40px 0 0;
-  padding: 0 0 0 48px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 60px;
   overflow: hidden;
   list-style: none;
 }
@@ -40,7 +43,7 @@ html {
 body {
   margin: 0;
   padding: 0 30px 30px;
-  background-image:url(/img/subtle_white_feathers.png);
+  background-color: #dee5ec;
 }
 
 a {
@@ -63,25 +66,25 @@ a {
 }
 
 .post-link:nth-child(4n+1) {
-  border-color: aqua;
+  border-color: #fa4000;
   border-style: outset;
 }
 
 .post-link:nth-child(4n+1):hover {
-  background: aqua;
+  background: #fa4000;
   color: inherit;
-  border: 2px outset white;
+  border: 2px outset #7a1f00;
 }
 
 .post-link:nth-child(4n+2) {
-  border-color: magenta;
+  border-color: #7e93ae;
   border-style: solid;
   border-width: 1px;
-  box-shadow: 0 0 0 1px white, 0 0 0 2px magenta;
+  box-shadow: 0 0 0 1px white, 0 0 0 2px #1c3353;
 }
 
 .post-link:nth-child(4n+2):hover {
-  background: magenta;
+  background: #7e93ae;
   color: white;
 }
 
@@ -190,14 +193,15 @@ video {
 
 .nav a {
   margin-right: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
   display: block;
   float: left;
-  height: 32px;
+  height: 60px;
 }
 
 .nav a {
   text-decoration: none;
+  color: #fa4000;
 }
 
 .nav a:hover {
@@ -208,7 +212,7 @@ video {
   .sidebar {
     position: static;
     margin: auto;
-    max-width: 21rem;
+    max-width: 32rem;
   }
 
   .wrapper {
@@ -255,7 +259,7 @@ video {
   .logo img {
     display: block;
     max-width: 100%;
-    margin: 4rem auto 0;
+    margin: 2rem auto 0;
   }
 }
 
