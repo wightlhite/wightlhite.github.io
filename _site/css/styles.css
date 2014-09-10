@@ -43,6 +43,7 @@ html {
 body {
   margin: 0;
   padding: 0 30px 30px;
+  background-image: url("img/wlfly.jpg");
   background-color: #dee5ec;
 }
 
